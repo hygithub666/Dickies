@@ -1,0 +1,391 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+	padding:0;
+}
+
+body{
+	position: relative;
+}
+
+
+body a:hover{
+	text-decoration: none;
+	color: black;
+}
+.header{
+	width: 100%;
+	height: 45px;
+	background: white;
+	position: fixed;
+	top:0;
+	z-index: 10;
+}
+
+.header .h_img{
+	width: 70px;
+	height: 39px;
+	position: absolute;
+	left: 100px;
+	top: 3px;
+}
+.header .sousuo{
+	position: absolute;
+	right: 100px;
+	top: 5px;
+}
+
+/*header*/
+header{
+	width: 100%;
+	height: 145px;
+	/*background: pink;*/
+}
+.h_main{
+	width: 1160px;
+	height: 145px;
+	/*background: green;*/
+	margin: 0 auto;
+	position: relative;
+}
+.logo{
+	width: 170px;
+	height: 95px;
+	position: absolute;
+	top: 30px;
+	z-index: 11;
+}
+
+.denglu{
+	width: 445px;
+	height: 24px;
+	/*background: red;*/
+	float: right;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.denglu a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.menu{
+	/*overflow: hidden;*/
+	width: 100%;
+	height: 45px;
+	/*background:red;*/
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.menu .m_name{
+	/*display: block;*/
+	list-style: none;
+	font-size: 16px;
+	font-weight: 700;
+	/*margin: 0 30px;*/
+	width: 88px;
+	line-height: 45px;
+	/*background: red;*/
+	text-align: center;
+
+
+}
+.menu li:hover{
+	background: #e5e5e5;
+}
+.menu .nanzhuang:hover #nz_box{
+	display: block;
+}/*
+.menu .nvzhuang:hover #nz_box{
+	display: block;
+}*/
+.menu .menuB{
+	width: 120px;
+}
+.menu li a{
+	text-decoration: none;
+	color: black;
+}
+.nanzhuang{
+	/*position: relative;*/
+}
+.nz_name{
+	text-decoration: none;
+	color: black;
+}
+#nz_box{
+	padding-top: 35px;
+	width: 1349px;
+	height: 390px;
+	background: #e5e5e5;
+	position: absolute;
+	top: 45px;
+	left: -95px;
+	display: none;
+	z-index: 1;
+}
+.nz_main{
+	width: 900px;
+	display: flex;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.nz_left{
+	width: 150px;
+}
+.nz_left:nth-child(1){
+	border-right: 1px solid #a0a0a0;
+}
+.nz_left:nth-child(2){
+	margin-left: 60px;
+}
+.nz_main .nz_left a:nth-child(1){
+
+	font-size: 18px;
+	font-weight: 900;
+	margin-left: 0;
+}
+.nz_main .nz_left a{
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 20px;
+	text-decoration: none;
+	color: black;
+	line-height: 35px;
+	text-align: left;
+}
+.nzimg{
+	width: 262px;
+}
+.nzimg:nth-child(1){
+	margin-left:  10px;
+}
+
+
+
+
+
+.sousuo{
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-top: 6px;
+	width: 230px;
+	height: 32px;
+	/*background: black;*/
+	position: absolute;
+	right: 0;
+	border-radius: 5px;
+}
+.sousuo input{
+	border:none;
+}
+
+/*banner1*/
+.banner1{
+	width: 100%;
+	height: 562px;
+	/*background: url(../img/banner1.jpg);*/
+	background: black;
+
+}
+
+/*banner2*/
+.banner2{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.banner2 img{
+	width: 100%;
+	height: 100%;
+	/*float: left;
+	flex:1;*/
+}
+
+.tj1{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+.tj2{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.tj2 a{
+	text-decoration: none;
+	color: black;
+}
+.pageBox{
+	background: #f7f7f7;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.page{
+	width: 1150px;
+	/*height: 700px;*/
+	background: #f7f7f7;
+	display: flex;
+	margin: 0 auto;
+}
+.page a{
+	flex:1;
+	margin-right: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+
+}
+.page a:nth-child(4){
+	margin-right: 0;
+}
+
+
+.page img{
+	width: 100%;
+}
+.page span{
+	display: block;
+	margin-top: 5px;
+}
+.pinpaiBox{
+	width: 100%;/*
+	padding-top: 40px;*/
+	padding-bottom: 40px;
+}
+.pinpai{
+	width: 1150px;
+	/*height: 700px;*/
+	/*background: #f7f7f7;*/
+	display: flex;
+	margin: 0 auto;
+}
+.pinpai a{
+	flex:1;
+	margin-right: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+
+}
+.pinpai a:nth-child(5){
+	margin-right: 0;
+}
+.pinpai img{
+	width: 100%;
+}
+.pinpai span{
+	display: block;
+	margin-top: 5px;
+}
+.pinpaiBt{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 40px;
+	margin-bottom: 15px;
+}
+.banner_2{
+	width: 100%;
+}
+.banner_2 img{
+	width: 100%;
+	display: block;
+}
+
+footer{
+	width: 100%;
+	height: 338px;
+	background:#212121;
+}
+.ft_main{
+	width: 977px;	height: 338px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.ft_logo{
+	text-align: center;
+}
+.ft_logo img{
+	width: 175px;
+	height: 95px;
+}
+.ft_bottom{
+	width: 100%;
+	height: 179px;
+	margin-top:20px;
+	/*display: flex;*/
+}
+.ft1{
+	width: 245px;
+	height: 100%;
+	float: left;
+}
+.ft2{
+	width: 200px;
+	height: 100%;
+	float: left;
+	
+}
+.ft3{
+	width: 206px;
+	float: left;
+	height: 100%;
+
+}
+.ft4{
+	width: 196px;
+	float: left;
+	height: 100%;
+
+}
+.ft5{
+	width: 130px;
+	float: left;
+	height: 100%;
+
+}
+.ft_bottom a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 14px;
+	margin-bottom: 5px;
+
+}
+.ft_bottom a:hover{
+	text-decoration: none;
+	color: white;
+}
+.ft_tit{
+	font-size: 16px;
+	font-weight: 900;
+	color: white;
+	margin-bottom: 10px;
+}
+.ft5 a{
+	display: inline;
+}
+.ft1 a{
+	display: inline;
+}
+.footer{
+	width: 100%;
+	height: 37px;
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 150px;
+	line-height: 37px;
+	font-size: 13px;
+	color: white;
+}
